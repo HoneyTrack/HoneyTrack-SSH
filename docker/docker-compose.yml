@@ -1,0 +1,10 @@
+version: '3'
+services:
+  honeypot:
+    image: 'local/honeytrack-test:latest'
+    build: ./docker/
+    ports:
+      - '22:22'
+      - '80:80'
+      - '443:443'
+    command: '/bin/bash'
