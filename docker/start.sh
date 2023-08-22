@@ -152,7 +152,7 @@ if [[ $choice == "yes" || $choice == "Y" || $choice == "y" ]]; then
     ssh-keygen
 
     echo "Keys generated Successfully"
-    
+
     echo "
 Enter the username of the remote SSH machine"
     read REMOTEUSER
@@ -193,13 +193,13 @@ if [[ $choice == "yes" || $choice == "Y" || $choice == "y" ]]; then
     echo "Enter the Correspondent's EMAIL Address"
     read EMAIL_ADDR
     echo "
-    Enter the Password for the given EMAIL Address"
+Enter the Password for the given EMAIL Address"
     read -s EMAIL_PASS
     echo "
-    Enter the First Recipient's EMAIL Address"
+Enter the First Recipient's EMAIL Address"
     read EMAIL_REC1
     echo "
-    Enter the Second Recipient's EMAIL Address"
+Enter the Second Recipient's EMAIL Address"
     read EMAIL_REC2
 
     echo "EMAIL_ADDR=$EMAIL_ADDR
