@@ -13,13 +13,13 @@ With the tremendous growth of cyber-attacks, the loss of private or sensitive da
 HoneyTrack is a honeypot 🍯 cum SIEM tool 📊 that uses various technologies like Docker 🐋, Shell 🐚 Scripts, Python 🐍, Elastic Search 🔍, Kibana 📈, and Filebeats 📂 which protect an organization's database as well it backtracks the hacker when it intrudes the target network. &nbsp;
 
 
-<div style="text-align:center"><img src="./documentation/globe.gif" alt="Globe" width="500px"/> </div> &nbsp;
+<div align="center"><img src="./documentation/globe.gif" alt="Globe" width="500px"/> </div> &nbsp;
 
 Information about the attacker will be gathered by the bot in the honeypot which will help us reach the roots of the attacker 💀. The target networks could be varied and cause a lot of damage when sensitive data will be lost/stolen.
 
 However, this honeypot is like a traditional honeypot but quite updated with new-generation technology 🚀 and their needs related to cyber-security. &nbsp;
 
-<div style="text-align:center"><img src="./documentation/elk.gif" alt="Globe" width="500px"/> </div> &nbsp;
+<div align="center"><img src="./documentation/elk.gif" alt="Globe" width="500px"/> </div> &nbsp;
 
 ## Methodology
 
@@ -31,8 +31,8 @@ Later, python 🐍 codes were developed to build the honeypot and set all its fu
 
 Check out other repositories at [github/HoneyTrack](https://github.com/HoneyTrack)
 
-<div style="text-align:center"><img src="./documentation/1.png" alt="Figure: Local Network Architecture (On ORACLE Virtual Box)" width="600px" /> </div>
-<p style="text-align: center;"> Fig. Local Network Architecture (On ORACLE Virtual Box) </p>
+<div align="center"><img src="./documentation/1.png" alt="Figure: Local Network Architecture (On ORACLE Virtual Box)" width="600px" /> </div>
+<p align="center"> Fig. Local Network Architecture (On ORACLE Virtual Box) </p>
 
 The figure above represents a testing diagram used to demonstrate HoneyTrack on Local Networks in Oracle VirtualBox.
 
@@ -40,8 +40,8 @@ Any request outside of the network must pass through the firewall. There are cer
 
 &nbsp;
 
-<div style="text-align:center"><img src="./documentation/2.png" alt="Figure: Data Flow Diagram" width="600px" /> </div>
-<p style="text-align: center;"> Fig. Data Flow Diagram </p>
+<div align="center"><img src="./documentation/2.png" alt="Figure: Data Flow Diagram" width="600px" /> </div>
+<p align="center"> Fig. Data Flow Diagram </p>
 
 The figure above represents the data flow or application flow diagram of HoneyTrack.
 
