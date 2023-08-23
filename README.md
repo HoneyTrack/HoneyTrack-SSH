@@ -85,6 +85,9 @@ The logs generated are stored in the logs database with a backup set as a cronjo
     <command>               Command to run when the container starts
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+&nbsp;
+<div align="center"><img src="./documentation/3.png" alt="HoneyTrack" width="600px" /> </div>
+
 5. Docker Internal Configuration
 
     Run the start.sh shell script to configure the parameters of Honeypot
