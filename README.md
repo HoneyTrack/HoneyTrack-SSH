@@ -27,7 +27,7 @@ The first step and concern behind developing this project were to ensure data pr
 
 To accomplish this stage, Docker 🐋, an open-source software, helped us create a base of the LINUX 🐧 system where we could build the entire honeypot. When the intruder 👺 first tries to intrude into the system uses a brute force attack. However, there is a very rare possibility of it cracking into the system.
 
-Later, python 🐍 codes were developed to build the honeypot and set all its functionalities. In the worst-case scenario, where the cracker succeeds in intruding into our honeypot then payloads (viruses) ☠️.
+Later, python 🐍 codes were developed to build the honeypot and set all its functionalities. In the worst-case scenario, where the cracker succeeds in intruding into our honeypot he will be affected by payloads (viruses) ☠️.
 
 Check out other repositories at [github/HoneyTrack](https://github.com/HoneyTrack)
 
