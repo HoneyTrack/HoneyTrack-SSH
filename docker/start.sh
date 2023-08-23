@@ -164,13 +164,18 @@ Enter the IP Address of the remote SSH machine"
     sed -i "s/^# REMOTEIP=/REMOTEIP=$REMOTEIP/" "$LOGFILES/transfer.sh"
 
     echo "
+Enter the SSH port of the remote SSH machine"
+    read REMOTEPORT
+    sed -i "s/^# REMOTEPORT=/REMOTEPORT=$REMOTEPORT/" "$LOGFILES/transfer.sh"
+
+    echo "
 Enter the remote path to store logs"
     read REMOTEPATH
     sed -i "s|^# REMOTEPATH=|REMOTEPATH=$REMOTEPATH|" "$LOGFILES/transfer.sh"
 
     echo "Uploading Key to Remote Server...."
-    ssh-copy-id -i $REMOTEUSER@$REMOTEIP
-    ssh $REMOTEUSER@$REMOTEIP "chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys"
+    ssh-copy-id -p $REMOTEPORT $REMOTEUSER@$REMOTEIP
+    ssh $REMOTEUSER@$REMOTEIP -p $REMOTEPORT "chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys"
 
     echo "SSH has been configured successfully"
 
