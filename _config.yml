@@ -1,0 +1,12 @@
+remote_theme: just-the-docs/just-the-docs
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  # Add this line to enable relative links for images
+  relative_links: true
+
+relative_links:
+  enabled: true
+  collections: true
