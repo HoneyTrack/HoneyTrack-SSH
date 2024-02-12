@@ -56,8 +56,15 @@ The logs generated are stored in the logs database with a backup set as a cronjo
 2. Clone the repository
 
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    git clone git@github.com:aatharvauti/HoneyTrack-SSH.git
+    git clone git@github.com:HoneyTrack/HoneyTrack-SSH.git
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    or
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    git clone https://github.com/HoneyTrack/HoneyTrack-SSH.git
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 3. Build the Guest Docker Container
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
