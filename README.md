@@ -79,8 +79,8 @@ The logs generated are stored in the logs database with a backup set as a cronjo
 4. Run the Guest Docker Image
 
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    sudo docker container run --restart=always -it --hostname ssh-server\
-    -p 22:22 local/honeytrack-ssh-vf-cloud:latest /bin/bash
+    sudo docker container run --restart=always -it -p 22:22 --hostname ssh-server\
+     local/honeytrack-ssh-vf-cloud:latest /bin/bash
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
