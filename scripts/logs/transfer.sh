@@ -14,7 +14,7 @@ FILES=("../auth.log" "master.log" "usrpwd.log" "geoiplocation.log" "geoiploc.jso
 # Function to transfer a file to remote server
 function transfer_file() {
     local file="$1"
-    scp -o StrictHostKeyChecking=no "$LOCALPATH/$file" "$REMOTEUSER@$REMOTEIP:$REMOTEPATH" -P $REMOTEPORT
+    scp -o StrictHostKeyChecking=no -P $REMOTEPORT "$LOCALPATH/$file" "$REMOTEUSER@$REMOTEIP:$REMOTEPATH"
 }
 
 # Loop through files and transfer them in the background
